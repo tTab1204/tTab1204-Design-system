@@ -1,1 +1,1 @@
-Typescript, Redux, styled-components, react-router-dom 초기 설정을 해놓은 boiler-plate입니다.
+공통 컴포넌트 모음집 (with Storybook)
