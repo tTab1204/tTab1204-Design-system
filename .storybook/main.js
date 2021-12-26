@@ -5,6 +5,13 @@ module.exports = {
     '@storybook/addon-essentials',
     '@storybook/preset-create-react-app',
   ],
-  // staticDirs: ['../public', '../static', { from: '../foo/assets', to: '/assets' }],
+  webpackFinal: async (config, { configType }) => {
+    config.output.publicPath = '/tTab1204/';
+    return config;
+  },
+  managerWebpack: async (config) => {
+    config.output.publicPath = '/tTab1204/';
+    return config;
+  },
   framework: '@storybook/react',
 };
