@@ -51,7 +51,7 @@ export default function Checkbox({ id, checked, onChange, label }: CheckboxProps
     <CheckboxContainer>
       <CheckBox checked={checked} htmlFor={id}>
         <HiddenCheckbox id={id} type="checkbox" onChange={onChange} checked={checked} />
-        <CheckIcon size={14} color={COLORS.white} />
+        <CheckIcon color={COLORS.white} />
       </CheckBox>
       {label ? <Label htmlFor={id}>{label}</Label> : null}
     </CheckboxContainer>
