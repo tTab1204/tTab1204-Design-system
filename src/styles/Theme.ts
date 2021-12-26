@@ -8,9 +8,8 @@ export const COLORS = {
   yellow_03: '#FFEE8F',
   lightYellow: '#FFF9F3',
   lightblue: '#739EF1',
-  green: '#8FD8B5',
+  green: '#11582E',
   lightGreen: '#D3EFE1',
-  skyblue: '#9DD4FF',
   apricot: '#FEF0E7',
   gray_01: '#efeff2',
   gray_02: '#C4C4C4',
@@ -19,6 +18,7 @@ export const COLORS = {
   gray_05: '#323232',
   gray_06: '#F5F5F5',
   lightGray: '#F2F3F4',
+  skyblue: 'rgb(30, 167, 253)',
 };
 
 export const SHADOWS = {
