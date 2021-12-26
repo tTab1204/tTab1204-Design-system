@@ -5,13 +5,11 @@ module.exports = {
     '@storybook/addon-essentials',
     '@storybook/preset-create-react-app',
   ],
-  webpackFinal: async (config, { configType }) => {
-    config.output.publicPath = '/tTab1204/';
-    return config;
-  },
-  managerWebpack: async (config) => {
-    config.output.publicPath = '/tTab1204/';
-    return config;
+  refs: {
+    'chromatic-published-Storybook': {
+      title: 'Design System',
+      url: 'https://tTab1204.chromatic.com',
+    },
   },
   framework: '@storybook/react',
 };

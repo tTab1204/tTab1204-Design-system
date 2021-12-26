@@ -73,5 +73,9 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.4.9",
     "chromatic": "^6.3.3"
+  },
+  "storybook": {
+    "url": "https://tTab1204.chromatic.com"
   }
 }
+
