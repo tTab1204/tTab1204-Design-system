@@ -26,8 +26,8 @@ yarn.lock
 .env.production.local
 
 # storybook
-.build-storybook.log
-storybook-static.build
+build-storybook.log
+/storybook-static
 
 
 npm-debug.log*
