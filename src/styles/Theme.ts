@@ -12,11 +12,15 @@ export const COLORS = {
   lightGreen: '#D3EFE1',
   skyblue: '#9DD4FF',
   apricot: '#FEF0E7',
-  gray_01: '#E8E8E9',
+  gray_01: '#efeff2',
   gray_02: '#C4C4C4',
   gray_03: '#929292',
   gray_04: '#666666',
   gray_05: '#323232',
   gray_06: '#F5F5F5',
   lightGray: '#F2F3F4',
+};
+
+export const SHADOWS = {
+  primary: 'rgb(0 0 0 / 16%) 0px 2px 6px',
 };
