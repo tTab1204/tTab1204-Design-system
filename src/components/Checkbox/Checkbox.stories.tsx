@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Checkbox from './Checkbox';
 export default {
   component: Checkbox,
-  title: 'Components/Inputs/Checkbox',
+  title: 'Components/Checkbox',
 };
 export const Basic = () => {
   const [isChecked, setIsChecked] = useState<boolean>(false);
